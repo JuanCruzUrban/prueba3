@@ -1,0 +1,296 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+
+
+  background-image: url("../img/imagenesProductos/images/fotofondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.principal {
+
+  display: flex;
+
+}
+
+.tituloPrincipal {
+
+
+  font-size: 3rem;
+  color: white;
+  height: 8rem;
+  width: 85%;
+  
+  text-align: center;
+}
+
+
+.bannerPrincipal {
+
+ 
+  height: 8rem;
+width: 15%;
+}
+
+
+.logo {
+margin: 0%;
+height: 7rem;
+width: 7rem;
+background-color: rgba(73, 16, 6, 0.062);
+position: fixed;
+top: 0;
+
+}
+
+
+
+
+
+.primeraSeccion {
+
+ display: flex;
+  padding: 2rem;
+  margin-left: 15%;
+  
+  
+
+}
+
+.primeraSeccion p{
+flex-direction: column;
+flex-wrap: wrap;
+  padding: 0.5rem;
+  color: rgba(245, 245, 220, 0.329);
+font-weight: 600;
+
+}
+
+.primeraSeccion img{
+margin-top: 0%;
+margin-left: 5%;
+  height: 30rem;
+width: auto;
+}
+
+.segundoTitulo{
+margin-top: 1rem;
+margin-left: 15%;
+  padding: 1rem;
+width: 85%;
+color: rgb(167, 84, 7);
+}
+
+
+
+.tercerTitulo{
+
+width: 85%;
+margin-left: 15%;
+padding: 2rem;
+color: rgb(167, 84, 7) ;
+}
+
+.segundaSeccion{
+
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+  
+}
+
+img{
+  margin-top: 3rem;
+margin-left: 15%;
+
+  height: 13rem;
+  width: 20rem;
+
+}
+
+.videotaller{
+
+  margin-top: 1rem;
+margin-left: 15%;
+  width: 60rem;
+  height: 30rem;
+
+}
+.vid{
+
+  display: flex;
+
+}
+
+.vid video{
+  margin-top: 1rem;
+margin-left: 15%;
+  width: 60rem;
+  height: 30rem;
+
+}
+
+form{
+margin-left: 15%;
+  width: 85%;
+
+}
+
+.bloqueFormu{
+display: flex;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+
+}
+
+.input1{
+
+  display: block;
+padding: 3rem;
+}
+
+.input1 input{
+
+height: 3rem;
+width: 100%;
+
+}
+
+.input1 label{
+display: flex;
+  margin-left: 35%;
+  padding: 1rem;
+  color: white;
+
+}
+
+.input2{
+
+  display: block;
+padding: 3rem;
+}
+
+
+.input2 input{
+
+  height: 3rem;
+  width: 100%;
+  
+  }
+  
+.input2 label{
+
+display: flex;
+  margin-left: 35%;
+  padding: 1rem;
+  color: white;
+
+}
+
+  .input3{
+
+    display: block;
+  padding: 3rem;
+  }
+
+  .input3 input{
+
+    height: 3rem;
+    width: 100%;
+    
+    }
+    
+    .input3 label{
+display: flex;
+      margin-left: 35%;
+      padding: 1rem;
+color: white;
+    }
+    
+
+    .input4{
+
+      display: flex;
+    padding: 3rem;
+    flex-direction: column;
+    
+    }
+
+    .input4 label{
+
+      margin-left: 35%;
+      padding: 1rem;
+      color: white;
+    }
+
+    .input4 textarea{
+
+      height: 20rem;
+      width: 100%;
+ 
+      }
+      
+      .input4 button{
+
+margin-top: 3rem;
+height: 5rem;
+width: 20%;
+margin-left: 35%;
+
+      }
+    
+      .mapa{
+
+        display: flex;
+flex-direction: column;
+margin-left: 15%;
+      }
+
+      .mapa h3{
+
+        padding: 1rem;
+margin-left: 15%;
+color: rgba(248, 248, 246, 0.685);
+font-weight: 700;
+
+      }
+
+
+footer{
+
+  margin-top: 3rem;
+height: 5rem;
+}
+
+footer nav ul{
+
+  list-style-type: none;
+text-align: center;
+}
+
+footer nav a  {
+
+  color: rgb(167, 84, 7) ;
+  text-decoration: none;
+  padding: 3rem;
+  font-weight: bold ;
+  font-size: large;
+}
+
+
+
+ footer nav li{
+
+
+display: inline-block;
+
+}
